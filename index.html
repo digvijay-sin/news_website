@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Watchman</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f2ff; /* Light blue theme */
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #004d66;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #007a99;
+            border-radius: 5px;
+        }
+
+        /* News Section */
+        .news-section {
+            width: 80%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .news-story {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .news-story:hover {
+            transform: translateY(-5px);
+        }
+
+        .news-story img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .news-story h2 {
+            color: #004d66;
+        }
+
+        footer {
+            background-color: #004d66;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Watchman</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#entertainment">Entertainment</a></li>
+                <li><a href="#global">Global</a></li>
+                <li><a href="#tech">Science & Tech</a></li>
+                <li><a href="#national">National</a></li>
+                <li><a href="#epaper">E-Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="news-section">
+            <article class="news-story">
+                <img src="images/sunita-williams.jpg" alt="Sunita Williams in Space">
+                <h2>Sunita Williams’ Village Plans Festivities for Her Homecoming</h2>
+                <p>As astronaut Sunita Williams prepares to return, her ancestral village is abuzz with celebrations. The community is organizing events to honor her remarkable achievements in space exploration. Williams, a role model for many, has made history with her missions aboard the International Space Station.</p>
+            </article>
+            
+            <article class="news-story">
+                <h2>India's Tech Boom Continues to Surge</h2>
+                <p>With rapid advancements in AI and cloud computing, India's tech industry has seen unprecedented growth. Experts predict a major shift in global innovation dynamics.</p>
+            </article>
+            
+            <article class="news-story">
+                <h2>Major Breakthrough in Cancer Research</h2>
+                <p>Scientists have discovered a potential new treatment that could revolutionize cancer care, offering hope to millions worldwide.</p>
+            </article>
+        </section>
+
+        <!-- Sports Section -->
+        <section id="sports" class="news-section">
+            <article class="news-story">
+                <h2>Sports News Coming Soon</h2>
+                <p>Stay tuned for the latest updates on sports events, teams, and players from around the world.</p>
+            </article>
+        </section>
+
+        <!-- Entertainment Section -->
+        <section id="entertainment" class="news-section">
+            <article class="news-story">
+                <h2>Entertainment News Coming Soon</h2>
+                <p>Catch the latest on movies, TV shows, and celebrity gossip.</p>
+            </article>
+        </section>
+
+        <!-- Global Section -->
+        <section id="global" class="news-section">
+            <article class="news-story">
+                <h2>Global News Coming Soon</h2>
+                <p>Breaking news from all corners of the globe, bringing you the most important updates.</p>
+            </article>
+        </section>
+
+        <!-- Science & Tech Section -->
+        <section id="tech" class="news-section">
+            <article class="news-story">
+                <h2>Science & Tech News Coming Soon</h2>
+                <p>Exploring the latest innovations and breakthroughs in science and technology.</p>
+            </article>
+        </section>
+
+        <!-- National Section -->
+        <section id="national" class="news-section">
+            <article class="news-story">
+                <h2>National News Coming Soon</h2>
+                <p>Stay informed with the latest national developments, politics, and events.</p>
+            </article>
+        </section>
+
+        <!-- E-Paper Section -->
+        <section id="epaper" class="news-section">
+            <article class="news-story">
+                <h2>E-Paper Coming Soon</h2>
+                <p>Explore our digital archives and read past editions of the newspaper.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 The Watchman. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
